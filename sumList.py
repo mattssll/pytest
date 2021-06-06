@@ -1,5 +1,4 @@
 """ An example of a Python Module. """
-
 from typing import List
 
 def total(xs: List[float]) -> float:
@@ -8,3 +7,4 @@ def total(xs: List[float]) -> float:
     for x in xs:
         result += x
     return result
+
